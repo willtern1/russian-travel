@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 32px;
-  transition: .5s linear
+  transition: .5s linear;
 }
 
 .cover__overlay:hover {
