@@ -1,0 +1,21 @@
+.cover__overlay {
+  text-decoration: none;
+  background: rgba(42, 44, 47, 0.3);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  transition: .5s linear
+}
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, 0.8);
+  transition: .5s linear;
+}
+
+@media screen and (max-width: 400px) {
+  .cover__overlay {
+    gap: 16px;
+  }
+}

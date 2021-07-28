@@ -1,0 +1,10 @@
+.page {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(42, 44, 47, 1);
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
