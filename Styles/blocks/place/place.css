@@ -9,7 +9,7 @@
   "image container";
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .place {
   justify-content: center;
   row-gap: 32px;
