@@ -20,6 +20,7 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
+    margin-left: 25px;
   }
 }
 
@@ -31,12 +32,3 @@
     margin: 0 0 24px 16px;
   }
 }
-@media screen and (max-width: 320px) {
-  .footer {
-    flex-direction: column;
-    align-self: flex-start;
-    max-width: 186px;
-    margin: 0 0 24px 16px;
-  }
-}
-

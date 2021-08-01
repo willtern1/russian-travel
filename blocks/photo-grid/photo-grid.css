@@ -26,13 +26,13 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: 720px;
-    grid-gap: 20px;
+    grid-gap: 18px;
     grid-template-columns: repeat(2, 1fr);
     margin: 88px auto;
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 609px) {
   .photo-grid {
     justify-items: center;
     min-width: 288px;
