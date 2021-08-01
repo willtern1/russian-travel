@@ -13,13 +13,13 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 750px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 630px;
+    max-width: 720px;
   }
 }
 
@@ -31,3 +31,12 @@
     margin: 0 0 24px 16px;
   }
 }
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    align-self: flex-start;
+    max-width: 186px;
+    margin: 0 0 24px 16px;
+  }
+}
+

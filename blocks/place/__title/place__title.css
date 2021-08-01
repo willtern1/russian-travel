@@ -30,3 +30,15 @@
     margin-left: 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__title  {
+    width: 288px;
+    height: 35px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+    margin-top: 2px;
+  }
+}

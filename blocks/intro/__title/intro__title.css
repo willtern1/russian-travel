@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    padding-top: 88px;
-    max-width: 720px;
-    font-size: 44px;
-    line-height: 48px;
+    padding-top: 0px;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;

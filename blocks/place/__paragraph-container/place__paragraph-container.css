@@ -22,3 +22,10 @@
     margin-left: 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-container  {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}

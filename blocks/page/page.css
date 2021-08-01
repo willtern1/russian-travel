@@ -9,3 +9,10 @@
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 1024px) {
+  .page {
+    display: grid;
+  }
+
+}

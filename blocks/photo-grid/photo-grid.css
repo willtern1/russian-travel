@@ -23,7 +23,26 @@
   }
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .photo-grid {
+    justify-items: center;
+    min-width: 288px;
+    grid-gap: 12px;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 64px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .photo-grid {
     justify-items: center;
     min-width: 288px;

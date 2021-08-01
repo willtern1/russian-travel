@@ -7,3 +7,9 @@
   letter-spacing: 2px;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__url-heading {
+    margin-bottom: 17px;
+  }
+}
