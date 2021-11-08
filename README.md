@@ -1,4 +1,4 @@
-# 1. Путешествия по России
+# Путешествия по России
 
 ## https://willtern1.github.io/russian-travel/
 
